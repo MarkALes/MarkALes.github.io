@@ -1,0 +1,122 @@
+*  {
+    box-sizing: border-box;
+    font-family: "arial";
+  }
+  html,
+  body {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+  }
+  .bg-primary {
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 2em;
+    max-height: 55px;
+    text-align: center;
+    position: relative;
+  }
+  .logo {
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+  header {
+    padding: 1em;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+   .nav {
+    margin: 0;
+    padding-right: 2em;
+    text-align: right;
+  }
+  .nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .nav li a {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
+  }
+  .nav li a:hover {
+    transition: 0.4s ease-in-out;
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+      .main_item img {
+        vertical-align: top; padding: 0; margin: 0;
+      }
+      .main_item {
+        min-height: 400px; padding: 0; margin: 0;
+      }
+      .picture {
+        background-image: url("img/3.jpg");
+        background-size: cover;
+        background-position: center center;
+        padding: 0;
+        margin: 0;
+      }
+      h4 {
+          font-size:xx-large;
+          font-weight: bold;
+          color:rgb(255, 255, 255);
+          text-align: center;
+          padding: 0;
+      }
+      .bold {
+        color: #ffd02b;
+      }
+      .blurb {
+          padding: 0;
+      }
+      .main_image {
+          height: 400px;
+          position: relative;
+          overflow: hidden;
+          padding: 0;
+      }
+      .main_image img {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 2000px;
+        padding: 1em;
+      }
+      .column {
+        width: 100%;
+      }
+    .social {
+      text-align: center;
+      padding-top: 3em;
+      padding-bottom: 5em;
+    
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .main_image2 {
+      padding-top: 3em; padding-bottom: 0; padding-left: 0; padding-right: 0; margin: 0; 
+    }
+   
