@@ -3,6 +3,7 @@
     "firebase-tools": "^10.6.0"
   },
   "scripts": {
-    "run" : ""
+    "run" : "",
+    "build" : ""
   }
 }
